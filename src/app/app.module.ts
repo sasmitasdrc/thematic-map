@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SDRCThematicMapDirective } from './sdrc-thematic-map.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SDRCThematicMapDirective,
   ],
   imports: [
     BrowserModule
